@@ -1,0 +1,14 @@
+public class test02 {
+    public static void main(String[] args) {
+        System.out.println(getMax(10));
+    }
+
+    public static Boolean getMax(int number){
+       if(number % 2 == 0){
+           return true;
+       }else{
+           return false;
+       }
+
+    }
+}
